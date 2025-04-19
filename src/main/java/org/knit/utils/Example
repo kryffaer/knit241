@@ -1,0 +1,11 @@
+package org.knit.solutions;
+
+import org.knit.TaskDescription;
+
+@TaskDescription(taskNumber = 1, taskDescription = "")
+public class Task1_Sol implements Solution{
+
+    public void execute() {
+        System.out.println("Задача 1 запущена");
+    }
+}
